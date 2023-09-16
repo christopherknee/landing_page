@@ -1,0 +1,28 @@
+.flexbox-container {
+    display: flex;
+}
+
+.one {
+    background-color: #1F2937;
+}
+.two {
+    background-color: white;
+}
+.three {
+    background-color: #E5E7EB;
+}
+.four {
+    background-color: white;
+}
+.footer {
+    background-color: #1F2937;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
