@@ -5,6 +5,37 @@
     justify-content: center;
 }
 
+button {
+    background-color: rgb(90, 145, 249);
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 128px;
+    height: 40px;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sign-up-banner {
+    background-color: rgb(45, 126, 225);
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+}
+
+.sign-up-banner button {
+    background-color: transparent;
+    color: white;
+    border: solid;
+}
+
+.sign-up-banner div {
+    padding: 24px;
+}
+
+.main-info button {
+    margin-top: 24px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,11 +46,40 @@ body {
     height: 500px;
 }
 
+.author {
+    margin-left: auto;
+    margin-top: 48px;
+}
+
+.quote a {
+    font-style: italic;
+    font-size: 64px;
+    color: #555;
+}
+
+.three .flexbox-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.author a{
+    font-style: bold;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
 .item img {
     height: 50%;
     width: 50%;
     border: 5px solid black;
     border-radius: 25px;
+}
+
+.item a {
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .main-img {
@@ -31,14 +91,25 @@ body {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 2%;
-    margin-top: 2%;
+    margin-bottom: 64px;
+    margin-top: auto;
 }
 
 .main-info {
     margin-left: 24px;
     margin-right: auto;
 }
+
+.main-info h1 {
+    font-size: 64px;
+}
+
+.main-info a {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 
 img {
     border-radius: 48px;
