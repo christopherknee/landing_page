@@ -98,3 +98,23 @@ img {
 h1, h2, h3, h4, h5, h6, a {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: rgb(56, 56, 56);
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
