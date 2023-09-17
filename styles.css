@@ -27,6 +27,14 @@ body {
     margin-right: 24px;
 }
 
+.info-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 .main-info {
     margin-left: 24px;
     margin-right: auto;
